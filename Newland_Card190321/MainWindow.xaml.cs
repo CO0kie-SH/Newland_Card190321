@@ -80,6 +80,7 @@ namespace Newland_Card190321
             ic.WriteString(CardDataKind.Data2, ty, 2, Encoding.UTF8);
             label1.Content = $"卡号:{kh}\n姓名：{name}\n人员类型：{ty}\n注册时间：{dt.ToString()}\n\n\n\n.";
 
+
             try
             {
                 Model1 m = new Model1();
